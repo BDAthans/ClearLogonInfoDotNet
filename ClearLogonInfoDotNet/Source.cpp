@@ -1,28 +1,32 @@
+// ClearLogonInfoDotNet designed by Brian Athans for Eyefinity Officemate Support
+
 #include <iostream>
 #include <iomanip>
 #include <string>
 #include <algorithm>
-#include <fstream>
-#include <atlstr.h>
-#include <Shlobj.h>
-#include <Windows.h>
-#include <stdlib.h>
-#include <dos.h>
-#include <VersionHelpers.h>
 #include <conio.h>
-#include <direct.h>
+#include <Windows.h>
+#include <dos.h>
 
 #include <odbcinst.h>
-#include <sql.h>
-#include <sqlext.h>
-#include <sqltypes.h>
 #include <sqlucode.h>
-#include <msdasql.h>
-#include <msdadc.h>
+
+//#include <fstream>
+//#include <atlstr.h>
+//#include <Shlobj.h>
+//#include <stdlib.h>
+//#include <VersionHelpers.h>
+//#include <direct.h>
+
+//#include <sql.h>
+//#include <sqlext.h>
+//#include <sqltypes.h>
+//#include <msdasql.h>
+//#include <msdadc.h>
 
 using namespace std;
 
-string runningVersion = "v0.0.1";
+string runningVersion = "v0.0.2";
 bool debugOn = false;
 
 int getOmate32();
